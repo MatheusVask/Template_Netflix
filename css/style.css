@@ -1,0 +1,201 @@
+
+*{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    position: relative;
+    align-self: center;
+    overflow-x: hidden;
+}
+
+div.opacidade{
+    width: 100vw;
+    min-height: 1000px;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+}
+
+img{
+    padding: 0 0 0 40px;
+    flex: 0 0;
+    position: absolute;
+    width: 175px;
+    height: 90px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#formulario{
+    margin: 0 auto -200px;
+
+    background-color: transparent;
+    max-width: 550px;
+    position: relative;
+}
+
+div.color{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 468px;
+    height: 660px;
+    padding: 60px 60px 40px 68px;
+    box-sizing: border-box;
+}
+
+div.color h1{
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    color: white;
+}
+
+form#inputs{
+    padding: 30px 0 0 0;
+}
+
+form#inputs div{
+    padding: 20px 0 0 0;
+}
+
+form#inputs div input{
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: #848484;
+    background-color: #333333;
+    border-radius: 4px;
+    border: 0;
+}
+
+form#inputs div#entrar{
+    padding: 40px 0 0 0;
+}
+
+form#inputs div#entrar input{
+    background-color: #e50914;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+div#lembre-ajuda {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    position: relative;
+}
+
+div#lembre-ajuda #lembre{
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div#lembre-ajuda label#label-lembre{
+    padding-left: 5px;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+div#lembre-ajuda p{
+    padding-left: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+}
+
+div#lembre-ajuda p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div#info{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    position: relative;
+}
+
+div#info img#icon-face{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+div#info a{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #848484;
+}
+
+div#novo{
+    width: 100%;
+    padding: 50px;
+}
+
+
+div#info .novo{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #848484;
+}
+
+div#info a.novo{
+    left: 123px;
+    color: #ffffff;
+    text-decoration: underline;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+div#info p#protegido{
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    font-size: 14px;
+    color: #848484;
+}
+
+@media only screen and (max-width: 600px) {
+    div.opacidade {
+      background: transparent;
+    }
+  }
